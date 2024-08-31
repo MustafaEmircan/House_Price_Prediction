@@ -6,6 +6,29 @@
 - Perform analysis and statistical evaluation 📊
 - Apply machine learning techniques 🤖
 
+# Machine Learning Models Used:
+- CatBoostRegressor
+- LGBMRegressor (LightGBM)
+- RandomForestRegressor
+- GradientBoostingRegressor
+- LinearRegression
+- KNeighborsRegressor
+- SVR (Support Vector Regressor)
+- DecisionTreeRegressor
+- XGBRegressor (XGBoost)
+
+# Analyses Made:
+- In our study, we used **SimpleImputer** and **KNNImputer** for filling in missing data. 🛠️📊
+- To label and combine categorical variables, we utilized **LabelEncoder** and **OneHotEncoder**. 🏷️🔄
+- Data scaling was performed using **RobustScaler**. 📏✨
+- We evaluated model performance with **k-fold cross-validation** and the **RMSE (Root Mean Squared Error)** metric. 📉✅
+- Hyperparameter optimization was achieved through **GridSearchCV**. 🔍🎯
+- Feature importance was analyzed using the **feature_importance** function for graphical insights. 📊🔍
+- Finally, predictions were made on the test data using the selected best model, and results were recorded. 🏆📈
+- Throughout the process, we tested various machine learning models, selecting the best-performing one for a comprehensive analysis and modeling study. 🤖🔬
+
+
+
 ## ABOUT THE DATA:
 
 **This dataset focuses on housing prices in Ames, Iowa, and is intended for predictive modeling of property values. It contains detailed information about various attributes 
@@ -15,11 +38,3 @@ columns that cover fundamental details such as lot area and bedroom count, as we
 SalePrice, which represents the sale price of each property in dollars. The accompanying data description file offers comprehensive explanations of each column, aiding in the
 understanding and preprocessing necessary for predictive analysis.** 📝🔍
 
-- In our study, we used **SimpleImputer** and **KNNImputer** for filling in missing data. 🛠️📊
-- To label and combine categorical variables, we utilized **LabelEncoder** and **OneHotEncoder**. 🏷️🔄
-- Data scaling was performed using **RobustScaler**. 📏✨
-- We evaluated model performance with **k-fold cross-validation** and the **RMSE (Root Mean Squared Error)** metric. 📉✅
-- Hyperparameter optimization was achieved through **GridSearchCV**. 🔍🎯
-- Feature importance was analyzed using the **feature_importance** function for graphical insights. 📊🔍
-- Finally, predictions were made on the test data using the selected best model, and results were recorded. 🏆📈
-- Throughout the process, we tested various machine learning models, selecting the best-performing one for a comprehensive analysis and modeling study. 🤖🔬
